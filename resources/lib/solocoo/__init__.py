@@ -4,12 +4,12 @@ from __future__ import absolute_import, division, unicode_literals
 
 SOLOCOO_API = 'https://tvapi.solocoo.tv/v1'
 
-TENANTS = dict([
+TENANTS = dict(
     ('tvv', dict(
-        name='TV Vlaanderen',
-        domain='livetv.tv-vlaanderen.be',
+        name='HD Austria',
+        domain='livetv.hdaustria.at',
         env='m7be2iphone',
-        app='tvv',
+        app='as',
     )),
     ('cds', dict(
         name='Canal Digitaal',
